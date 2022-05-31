@@ -1,0 +1,172 @@
+@import url( 'htttps://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0;
+
+}
+
+.text-primary{
+    color:#e29a00;
+
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: rgb(0, 0, 0)
+    
+}
+
+.bg-primary{
+    background: #93cb52;
+    color: #fff;
+}
+
+.l-heding{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+
+}
+
+.m-heding{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+
+}
+
+.py-1{padding: 1.5rem 0;}
+.py-1{padding: 2rem 0;}
+.py-1{padding: 3rem 0;}
+
+
+.text-center{
+    text-align: center;
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-hover{
+    background: #7ab436;
+}
+
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+
+}
+
+
+   
+
+
+
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(0, 63, 92);
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+    background: #f3b303;
+    border-radius: 5px;
+
+}
+
+#showcase{
+    background: #333 url('../img/Caelus-BSD-City.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0, 10);
+}
+
+
+/* bagian layanan */
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .items{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 80%;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
